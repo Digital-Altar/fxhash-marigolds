@@ -179,7 +179,7 @@ Promise.all(promises).then(() => {
       // draw squares depending on fx(param)
       if (squares === "colorful") {
         drawColorfulSquares();
-      } else if (squares === "mono") {
+      } else if (squares === "monocolor") {
         drawSquares();
       } else {
         const rand = $fx.rand(); // use fx(rand)
